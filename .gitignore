@@ -1,0 +1,44 @@
+# 환경변수 (절대 커밋 금지)
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# 가상환경
+venv/
+.venv/
+env/
+.env/
+
+# 크롤러 디버그 파일
+debug_*.html
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 로그
+*.log
+logs/
+
+# 압축 파일
+*.zip
+*.tar.gz
+
+# Playwright
+playwright-report/
+test-results/
